@@ -5,27 +5,26 @@ type GPUMetrics struct {
 	NodeName          string  `json:"node_name"`
 	GPUIndex          int     `json:"gpu_index"`
 	GPUName           string  `json:"gpu_name"`
-	Utilization       float64 `json:"utilization"`
-	MemoryUsed        int     `json:"memory_used"`
-	MemoryTotal       int     `json:"memory_total"`
-	MemoryFree        int     `json:"memory_free"`
+	GPUMemoryUsed     int     `json:"memory_used"`
+	GPUMemoryTotal    int     `json:"memory_total"`
+	GPUMemoryFree     int     `json:"memory_free"`
+	GPUUtilization    int     `json:"utilization"`
+	GPUTemperature    int     `json:"temperature"`
+	CPUUtilization    float64 `json:"cpu_utilization"`
 	MemoryUtilization float64 `json:"memory_utilization"`
-	Temperature       int     `json:"temperature"`
 	Timestamp         string  `json:"timestamp"`
 }
 
 // GPUProcess represents running GPU-related processes and their usage metrics.
 type GPUProcess struct {
-	NodeName    string  `json:"node_name"`
-	GPUIndex    int     `json:"gpu_index"`
-	PID         int     `json:"pid"`
-	ProcessName string  `json:"process_name"`
-	User        string  `json:"user"`
-	Command     string  `json:"command"`
-	GPUMemory   int     `json:"gpu_memory"`
-	CPU         float64 `json:"cpu"`
-	Memory      float64 `json:"memory"`
-	Timestamp   string  `json:"timestamp"`
+	NodeName    string `json:"node_name"`
+	GPUIndex    int    `json:"gpu_index"`
+	PID         int    `json:"pid"`
+	ProcessName string `json:"process_name"`
+	User        string `json:"user"`
+	Command     string `json:"command"`
+	GPUMemory   int    `json:"gpu_memory"`
+	Timestamp   string `json:"timestamp"`
 }
 
 // APIResponse represents standard API response structure
