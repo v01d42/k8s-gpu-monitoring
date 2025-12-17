@@ -13,7 +13,7 @@ backend:
   # Image configuration
   image:
     repository: "backend"
-    tag: "0.3.7"
+    tag: "0.3.8"
     pullPolicy: IfNotPresent
   
   # Deployment configuration
@@ -96,7 +96,7 @@ frontend:
   # Image configuration
   image:
     repository: "frontend"
-    tag: "0.3.7"
+    tag: "0.3.8"
     pullPolicy: IfNotPresent
   
   # Deployment configuration
