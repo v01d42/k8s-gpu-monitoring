@@ -2,17 +2,17 @@ package models
 
 // GPUMetrics represents GPU metrics data structure
 type GPUMetrics struct {
-	NodeName          string  `json:"node_name"`
-	GPUIndex          int     `json:"gpu_index"`
-	GPUName           string  `json:"gpu_name"`
-	GPUMemoryUsed     int     `json:"memory_used"`
-	GPUMemoryTotal    int     `json:"memory_total"`
-	GPUMemoryFree     int     `json:"memory_free"`
-	GPUUtilization    int     `json:"utilization"`
-	GPUTemperature    int     `json:"temperature"`
-	CPUUtilization    float64 `json:"cpu_utilization"`
-	MemoryUtilization float64 `json:"memory_utilization"`
-	Timestamp         string  `json:"timestamp"`
+	NodeName          string `json:"node_name"`
+	GPUIndex          int    `json:"gpu_index"`
+	GPUName           string `json:"gpu_name"`
+	GPUMemoryUsed     int    `json:"gpu_memory_used"`
+	GPUMemoryTotal    int    `json:"gpu_memory_total"`
+	GPUMemoryFree     int    `json:"memory_free"`
+	GPUUtilization    int    `json:"gpu_utilization"`
+	GPUTemperature    int    `json:"temperature"`
+	CPUUtilization    int    `json:"cpu_utilization"`
+	MemoryUtilization int    `json:"memory_utilization"`
+	Timestamp         string `json:"timestamp"`
 }
 
 // GPUProcess represents running GPU-related processes and their usage metrics.
