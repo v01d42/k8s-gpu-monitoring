@@ -138,8 +138,8 @@ func (c *Client) parseGPUMetrics(results map[string]*PrometheusResponse) ([]mode
 	for key, metricsEntry := range metricsMap {
 		nodeName := metricsEntry.NodeName
 		if util, exists := nodeUtilization[nodeName]; exists {
-			metricsEntry.CPUUtilization = util.cpuUtilization
-			metricsEntry.MemoryUtilization = util.memoryUtilization
+			metricsEntry.CPUUtilization = int(util.cpuUtilization)
+			metricsEntry.MemoryUtilization = int(util.memoryUtilization)
 			metricsMap[key] = metricsEntry
 		}
 	}
