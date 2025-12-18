@@ -1,5 +1,6 @@
 const columnsWithPercent = [
-  "utilization",
+  "gpu_utilization",
+  "cpu_utilization",
   "memory_utilization",
   "cpu",
   "memory",

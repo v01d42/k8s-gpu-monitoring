@@ -52,9 +52,10 @@ const columns: {
   { id: "timestamp", label: "timestamp" },
   { id: "gpu_index", label: "index" },
   { id: "gpu_name", label: "name" },
-  { id: "utilization", label: "utilization (%)" },
-  { id: "memory_used", label: "memory_used (MiB)" },
-  { id: "memory_total", label: "memory_total (MiB)" },
+  { id: "gpu_utilization", label: "gpu_utilization (%)" },
+  { id: "gpu_memory_used", label: "gpu_memory_used (MiB)" },
+  { id: "gpu_memory_total", label: "gpu_memory_total (MiB)" },
+  { id: "cpu_utilization", label: "cpu_utilization (%)" },
   { id: "memory_utilization", label: "memory_utilization (%)" },
   { id: "temperature", label: "temperature (°C)" },
 ];

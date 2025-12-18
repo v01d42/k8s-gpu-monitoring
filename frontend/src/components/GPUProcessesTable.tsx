@@ -46,15 +46,13 @@ const columns: {
   label: string;
 }[] = [
   { id: "node_name", label: "node_name" },
+  { id: "timestamp", label: "timestamp" },
   { id: "gpu_index", label: "gpu_index" },
   { id: "pid", label: "pid" },
   { id: "process_name", label: "process_name" },
   { id: "user", label: "user" },
   { id: "command", label: "command" },
   { id: "gpu_memory", label: "gpu_memory (MiB)" },
-  { id: "cpu", label: "cpu (%)" },
-  { id: "memory", label: "memory (%)" },
-  { id: "timestamp", label: "timestamp" },
 ];
 
 const GPUProcessesTable = () => {
