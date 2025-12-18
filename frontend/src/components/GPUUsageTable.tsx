@@ -55,7 +55,6 @@ const columns: {
   { id: "utilization", label: "utilization (%)" },
   { id: "memory_used", label: "memory_used (MiB)" },
   { id: "memory_total", label: "memory_total (MiB)" },
-  { id: "memory_utilization", label: "memory_utilization (%)" },
   { id: "temperature", label: "temperature (°C)" },
 ];
 

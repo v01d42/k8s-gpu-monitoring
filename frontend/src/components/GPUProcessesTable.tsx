@@ -52,8 +52,6 @@ const columns: {
   { id: "user", label: "user" },
   { id: "command", label: "command" },
   { id: "gpu_memory", label: "gpu_memory (MiB)" },
-  { id: "cpu", label: "cpu (%)" },
-  { id: "memory", label: "memory (%)" },
   { id: "timestamp", label: "timestamp" },
 ];
 

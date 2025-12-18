@@ -15,7 +15,6 @@ export interface GPUMetrics {
   memory_used: number;
   memory_total: number;
   memory_free: number;
-  memory_utilization: number;
   temperature: number;
   timestamp: string; // ISO8601
 }
@@ -28,7 +27,5 @@ export interface GPUProcess {
   user: string;
   command: string;
   gpu_memory: number;
-  cpu: number;
-  memory: number;
   timestamp: string;
 }
