@@ -4,8 +4,8 @@ description: |
   Kubernetes GPU Monitoring Dashboard - A comprehensive solution for monitoring 
   GPU resources in Kubernetes clusters with Prometheus metrics and real-time dashboard.
 type: application
-version: 0.3.10
-appVersion: "0.3.10"
+version: 0.3.11
+appVersion: "0.3.11"
 
 keywords:
   - gpu
