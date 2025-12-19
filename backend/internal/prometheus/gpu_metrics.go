@@ -18,7 +18,7 @@ func (c *Client) GetGPUMetrics(ctx context.Context) ([]models.GPUMetrics, error)
 		"gpu_mem_used":       `gpu_metrics_used_memory`,
 		"gpu_mem_total":      `gpu_metrics_total_memory`,
 		"gpu_utilization":    `gpu_metrics_utilization_percent`,
-		"gpu_temperature":    `gpu_metrics_temperature_celsius`,
+		"gpu_temperature":    `gpu_metrics_temperature`,
 		"cpu_utilization":    `gpu_metrics_cpu_utilization`,
 		"memory_utilization": `gpu_metrics_memory_utilization`,
 	}
